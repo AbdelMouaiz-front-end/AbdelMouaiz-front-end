@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: wheat;
+    font-family: cursive;
+}
+
+body {
+    background-color: #001;
+}
+
+
+.imge-box {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 3px white;
+    flex-shrink: 0;
+}
+
+.imge-box img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+
+}
+
+.menu {
+    background-color: #123;
+    padding: 10px;
+    width: 60px;
+    height: 100vh;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    width: 270px;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+    height: 95%;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 0.6s;
+}
+
+ul li a:hover {
+    background-color: #ffffff7b;
+}
+ .data-info .box:hover{
+background-color: #074ce0da;
+ }
+
+.log-out {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+.log-out a {
+
+    font-size: 20px;
+    background-color: #e3181890;
+}
+
+.log-out a:hover {
+    background-color: #f11414;
+   
+}
+.log-out i:hover{
+    color: #000000;
+}
+
+ul li i {
+    font-size: 25px;
+    transition: 0.5s;
+}
+ul li i:hover{
+    color: gold;
+    font-size: 27px;
+}
